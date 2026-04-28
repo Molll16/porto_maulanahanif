@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maulana Hanif | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">MH.dev</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+
+        <div>
+            <div class="badge">🚀 Available for Collaboration</div>
+
+            <h1>Hi, I'm <span>Maulana Hanif</span></h1>
+
+            <p>
+                Mahasiswa Rekayasa Perangkat Lunak yang fokus pada web development,
+                UI modern, dan membangun produk digital yang berguna.
+                Saya suka membuat sistem yang clean, modern, dan impactful.
+            </p>
+
+            <div class="btn-wrap">
+                <a href="mailto:maulanahanif1167@email.com" class="btn btn-primary">
+                    <i class="fa-solid fa-paper-plane"></i> Contact Me
+                </a>
+
+                <a href="https://github.com/Molll16" target="_blank" class="btn btn-outline">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/maulana-hanif-66872031a/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/ull.nip_"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Molll16"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="profile-box">
+            <div class="profile-card reveal">
+                <div class="avatar"><img src="foto/me.jpeg" alt="MH"></div>
+                <h3>Maulana Hanif</h3>
+                <p>TRPL Student • IT </p>
+
+                <div class="mini-grid">
+                    <div class="mini">
+                        <span>Location</span>
+                        Batam
+                    </div>
+
+                    <div class="mini">
+                        <span>Projects</span>
+                        3+
+                    </div>
+
+                    <div class="mini">
+                        <span>Status</span>
+                        Learning
+                    </div>
+
+                    <div class="mini">
+                        <span>Focus</span>
+                        ALL IN
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<section id="about">
+
+    <h2 class="section-title">About Me</h2>
+    <p class="section-sub">Sedikit tentang saya dan informasi singkat.</p>
+
+    <div class="about-grid">
+
+        <div class="panel reveal">
+            <p style="line-height:1.9;color:#cbd5e1;">
+                Saya memiliki minat besar dalam dunia software engineering, terutama
+                pengembangan website modern dan sistem informasi. Saya senang belajar
+                hal baru, membangun project nyata, dan meningkatkan kemampuan saya
+                setiap hari.
+            </p>
+        </div>
+
+        <div class="panel reveal">
+            <div class="info-list">
+
+                <div class="info">
+                    <span>Email</span>
+                    <span>maulanahanif1167@email.com</span>
+                </div>
+
+                <div class="info">
+                    <span>Address</span>
+                    <span>Batam, Kepulauan Riau, Indonesia</span>
+                </div>
+
+                <div class="info" onclick="toggleEdu()" style="cursor:pointer;">
+                    <span>Education <i class="fa-solid fa-sort-down"></i></span>
+                    <span>Politeknik Negeri Batam </i></span>
+                </div>
+
+                <div id="eduBox" style="display:none; padding:10px 0 14px 0; color:#cbd5e1; line-height:1.8;">
+                    • Politeknik Negeri Batam (2025 - Sekarang)<br>
+                    • SMAIT IMAM SYAFI'I (2022 - 2025)<br>
+                    • SMPIT IMAM SYAFI'I (2019 - 2022)
+                </div>
+
+                <div class="info">
+                    <span>Major</span>
+                    <span>TRPL</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="projects">
+    
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-sub">Beberapa project terbaik yang pernah saya kerjakan.</p>
+    
+        <div class="project-slider">
+    
+            <button class="nav prev" onclick="changeSlide(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+    
+            <div class="slides">
+    
+                <div class="project-slide active">
+                    <img src="foto/CCSO.png" alt="Project 1">
+    
+                    <div class="slide-info">
+                        <span>PBL PROJECT</span>
+                        <h3>Security Dashboard</h3>
+                        <p>Dashboard monitoring keamanan berbasis Laravel untuk memantau aktivitas sistem secara realtime.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="project-slide">
+                    <img src="foto/moneytracker.png" alt="Project 2">
+    
+                    <div class="slide-info">
+                        <span>PERSONAL PROJECT</span>
+                        <h3>Money Tracker</h3>
+                        <p>Aplikasi pengelola pemasukan dan pengeluaran pribadi dengan UI modern dan clean.</p>
+                    </div>
+                </div>
+    
+                <div class="project-slide">
+                    <img src="foto/kaswarga.png" alt="Project 3">
+    
+                    <div class="slide-info">
+                        <span>WEB PROJECT</span>
+                        <h3>Kaswarga</h3>
+                        <p>Platform keuangan digital RT/RW untuk pencatatan transparan dan mudah digunakan.</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <button class="nav next" onclick="changeSlide(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+    
+        </div>
+    
+        <div class="dots">
+            <span class="dot active" onclick="goSlide(0)"></span>
+            <span class="dot" onclick="goSlide(1)"></span>
+            <span class="dot" onclick="goSlide(2)"></span>
+        </div>
+    
+    </section>
+
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub">Teknologi dan kemampuan yang saya kuasai.</p>
+
+        <div class="skill-wrap">
+
+            <div class="skill-box reveal">
+                <h3>Programming</h3>
+                <div class="tags">
+                    <div class="tag">HTML</div>
+                    <div class="tag">CSS</div>
+                    <div class="tag">JavaScript</div>
+                    <div class="tag">PHP</div>
+                    <div class="tag">SQL</div>
+                </div>
+            </div>
+
+            <div class="skill-box reveal">
+                <h3>Framework & Tools</h3>
+                <div class="tags">
+                    <div class="tag">Laravel</div>
+                    <div class="tag">Git</div>
+                    <div class="tag">GitHub</div>
+                    <div class="tag">Figma</div>
+                    <div class="tag">Postman</div>
+                    <div class="tag">VS Code</div>
+                </div>
+            </div>
+
+            <div class="skill-box reveal">
+                <h3>Soft Skills</h3>
+                <div class="tags">
+                    <div class="tag">Problem Solving</div>
+                    <div class="tag">Teamwork</div>
+                    <div class="tag">Communication</div>
+                    <div class="tag">Time Management</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Maulana Hanif • Built with GitHub Pages
+    </footer>
+
+<script>
+    const reveal = document.querySelectorAll('.reveal');
+
+    window.addEventListener('scroll', () => {
+        reveal.forEach(el => {
+            let top = el.getBoundingClientRect().top;
+            if (top < window.innerHeight - 80) {
+                el.classList.add('active');
+            }
+        });
+    });
+
+    /* CAROUSEL */
+    let current = 0;
+    const slides = document.querySelectorAll('.project-slide');
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlide(index) {
+        slides.forEach(s => s.classList.remove('active'));
+        dots.forEach(d => d.classList.remove('active'));
+
+        slides[index].classList.add('active');
+        dots[index].classList.add('active');
+    }
+
+    function changeSlide(step) {
+        current += step;
+
+        if (current >= slides.length) current = 0;
+        if (current < 0) current = slides.length - 1;
+
+        showSlide(current);
+    }
+
+    function goSlide(index) {
+        current = index;
+        showSlide(current);
+    }
+
+    /* autoplay */
+    setInterval(() => {
+        changeSlide(1);
+    }, 5000);
+
+    /* TOGGLE EDUCATION */
+    function toggleEdu() {
+            let box = document.getElementById("eduBox");
+            box.style.display = box.style.display === "none" ? "block" : "none";
+        }
+</script>
+
+</body>
+
+</html>
